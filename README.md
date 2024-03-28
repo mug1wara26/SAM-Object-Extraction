@@ -3,8 +3,9 @@
 Simple app to extract objects from images using SAM models and save segments to file
 
 ## Setup
-First clone the thirdparty repos, then install python requirements
+First clone the repo and thirdparty repos, then install python requirements
 ```shell
+git clone https://github.com/mug1wara26/SAM-Object-Extraction.git && cd SAM-Object-Extraction
 git submodule update --init --recursive
 
 python3 -m venv venv
