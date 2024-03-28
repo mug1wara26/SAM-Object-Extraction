@@ -1,0 +1,3 @@
+[submodule "thirdparty/EdgeSAM"]
+	path = thirdparty/EdgeSAM
+	url = https://github.com/chongzhou96/EdgeSAM.git
