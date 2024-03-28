@@ -1,3 +1,6 @@
 [submodule "thirdparty/EdgeSAM"]
 	path = thirdparty/EdgeSAM
 	url = https://github.com/chongzhou96/EdgeSAM.git
+[submodule "thirdparty/MobileSAM"]
+	path = thirdparty/MobileSAM
+	url = https://github.com/ChaoningZhang/MobileSAM.git
