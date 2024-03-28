@@ -147,7 +147,7 @@ p: Positive point mode
 n: Negative point mode
 c: Clear points
 x: Clear box
-esc: exit
+esc: Exit
 """)
 while True:
     cv.imshow(window_name, img)
@@ -218,7 +218,8 @@ while True:
             cmin = min(col_coords)
             cmax = max(col_coords)
 
-
+            if not os.path.exists('segments/'):
+                os.mkdir('segments')
             cv.imwrite(f"segments/{len(os.listdir('segments'))}.png", output_img[rmin:rmax+1, cmin:cmax+1])
 
 
